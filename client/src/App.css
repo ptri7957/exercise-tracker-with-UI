@@ -1,0 +1,30 @@
+.auth-form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.navbar-nav li a{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar-nav li a:hover{
+    text-decoration: none;
+}
+
+.userBtns{
+    display: flex;
+    float: right;
+}
+
+.userBtns button{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 500) {
+    .userBtns{
+        display: inline;
+        float: none;
+    }
+}
